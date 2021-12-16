@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Janssen </title>
+    <link href="./style.css" rel="stylesheet"> 
+    <link href="./normaliza.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cb14bf1aea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>  
+        <div class="nav-center">
+          <button class="toggle-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+          <aside class="sidebar">
+            <div class="sidebar-header">
+              <button class="toggle-btn" id="closing-btn">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            <div class="links">
+              <li>
+                <a class="link scroll-link" href="#">Home</a>
+              </li>
+              <li>
+                <a class="link scroll-link" href="#projects-title">Projects</a>
+              </li>
+              <li>
+                <a class="link scroll-link" href="#about">About</a>
+              </li>
+              <li>
+                <a class="link scroll-link" href="#contact">Contact</a>
+              </li>
+            </div>
+          </aside>
+        </div>
+    </header>
+    <main>
+      <div class="introduction">
+        <h1>Hey, I'm Christian Janssen</h1>
+        <h3>I´m a Web Developer & programmer who lives in Yucatán, Mexico. Below are some of my skills and projects</h3>
+      </div>
+      <section class="portfolio-section">
+        <h3 id="projects-title">Front-End projects</h3>
+        <div id="projects" class="portfolio">
+          <img class="portfolio-img" src="./christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Laptop with a coding program">
+          <div class="portfolio-info">
+            <p>Here you will find all the projects i've been working on, these were built with HTML, CSS & JavaScript</p>
+            <button class="projects-btn"><a href="#">View Projects</a></button>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <h3>About Me</h3>
+        <div class="img-container">
+          <img src="./Perfil Christian.png" alt="Christian Janssen Profile Picture" class="profile-img">
+        </div>
+        <p class="paragraph">My name is Christian Janssen, I was borne in Mérida Yucatan, Mexico. Currently I’m studying my last year of my industrial engineering major at “Universidad Marista de Mérida”. I really love to solve problems using logic, mathematical reasoning and new technologies, that’s why early this year I started to learn code and web development and it quickly become something I’m really passionate about. </p>
+      </section>
+      <h3 class="title">Skills</h3>
+      <div class="skills">
+        <div class="skill-card" id="sk1">
+          <h4>HTML & CSS</h4>
+          <i class="far fa-edit icon" ></i>
+          <div class="underline"></div>
+          <p>The key to acomplish a beautiful Website is the design. Hola como estas Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ducimus, architecto laudantium ea porro temporibus nobis odio tempora commodi aut molestias dicta aliquid recusandae quisquam sint accusantium quod eum accusamus.</p>
+        </div>
+        <div class="skill-card" id="sk2">
+          <h4>JavaScript</h4>
+          <i class="fab fa-js-square icon"></i>
+          <div class="underline"></div>
+          <p>The key to acomplish a beautiful Website is the design. Hola como estas Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ducimus, architecto laudantium ea porro temporibus nobis odio tempora commodi aut molestias dicta aliquid recusandae quisquam sint accusantium quod eum accusamus.</p>
+        </div>
+        <div class="skill-card" id="sk3">
+          <h4>GitHub</h4>
+          <i class="fab fa-github icon"></i>
+          <div class="underline"></div>
+          <p>The key to acomplish a beautiful Website is the design. Hola como estas Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ducimus, architecto laudantium ea porro temporibus nobis odio tempora commodi aut molestias dicta aliquid recusandae quisquam sint accusantium quod eum accusamus.</p>
+        </div>
+        <div class="skill-card" id="sk4">
+          <h4>Fast learning</h4>
+          <i class="far fa-lightbulb icon"></i>
+          <div class="underline"></div>
+          <p>The key to acomplish a beautiful Website is the design. Hola como estas Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ducimus, architecto laudantium ea porro temporibus nobis odio tempora commodi aut molestias dicta aliquid recusandae quisquam sint accusantium quod eum accusamus.</p>
+        </div>
+      </div>
+      <div id="contact">
+        <h3 class="title">Contact</h3>
+        <p class="contact-p">
+          Email: christianjanssenc@gmail.com <br>
+          Phone number: (+52)9993317920
+        </p>
+        <p class="form-p">You also can fill this form to contact with me</p>
+        <div class="form-wrapper">
+          <form class="contact-form">
+            <div class="form-section" id="name-section">
+              <div id="name-div">
+                <label class="form-label" for="name">Name *</label><br>
+                <input class="form-input" type="text" id="name" name="user_name"><br>
+              </div>
+              <div id="last-div">
+                <label for="last-name">Last Name</label><br>
+                <input type="text" id="last-name" name="user_lastname"><br>
+              </div>
+            </div>
+            <div class="form-section">
+              <label class="form-label" for="email">Email *</label><br>
+              <input class="form-input" type="email" id="email" name="user_email" ><br>
+            </div>
+            <div class="form-section">
+              <label class="form-label" for="subject">Subject *</label><br>
+              <input class="form-input" type="text" id="subject" name="user_subject"><br>
+            </div>
+            <div class="form-section">
+              <label class="form-label" for="message">Message *</label><br>
+              <textarea class="form-input" id="message" name="user_message" ></textarea><br>
+            </div>
+            <button class="submit-btn" type="submit">Submit</button>
+
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-up">
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <div class="copyright">
+          Copyright &copy <span class="date">2021</span> Christian Janssen. FronEnd Portfolio.
+        </div>
+      </div>
+    </footer>
+  <script src="app.js">
+</body>
+</html>
+
+
+
