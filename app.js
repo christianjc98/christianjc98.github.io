@@ -7,11 +7,6 @@ toggleBtn.forEach( (btn) => {
   });
 });
 
-toggleBtn.forEach( (btn) => {
-  btn.addEventListener("touchstart", () => {
-    sidebar.classList.toggle("show-sidebar")  
-  });
-});
 
 window.addEventListener("scroll", ()=> {
   if(sidebar.classList.contains("show-sidebar")) {
