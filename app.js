@@ -6,7 +6,6 @@ toggleBtn.forEach( (btn) => {
     sidebar.classList.toggle("show-sidebar")  
   });
 });
-
 window.addEventListener("scroll", ()=> {
   if(sidebar.classList.contains("show-sidebar")) {
     sidebar.classList.remove("show-sidebar");
