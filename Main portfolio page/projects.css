@@ -3,6 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.fa-home {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    color: #f48b0c;
+}
+
 .projects-container {
     display: flex;
     flex-direction: column;
