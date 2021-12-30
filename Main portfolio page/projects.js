@@ -14,7 +14,15 @@ const projects = [
         description: "Digital menu for a local coffe shop",
         link: "https://christianjc98.github.io/Menu_project/"
 
-      }
+    },
+    {
+      id: 3, 
+      title: "Weather Project",
+      img: "weather-project.png",
+      description: "Website connected to OpenWeatherAPI to display the weather of mexican cities",
+      link: "https://christianjc98.github.io/climaMexico/"
+
+  }
 ]
 const projectContainer = document.querySelector(".projects-container");
 window.addEventListener("DOMContentLoaded", () => {
