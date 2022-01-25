@@ -21,8 +21,14 @@ const projects = [
       img: "weather-project.png",
       description: "Website connected to OpenWeatherAPI to display the weather of mexican cities",
       link: "https://christianjc98.github.io/climaMexico/"
-
-  }
+    }
+    {
+      id: 4, 
+      title: "Animation Project",
+      img: "animation-project.png",
+      description: "Loading animation for webpage builded with anime.js",
+      link: "https://christianjc98.github.io/AnimacionPrueba/"
+    }
 ]
 const projectContainer = document.querySelector(".projects-container");
 window.addEventListener("DOMContentLoaded", () => {
