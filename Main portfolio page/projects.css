@@ -1,62 +1,62 @@
 body {
-    background-color: #eee9e6;
-    font-family: 'Roboto', sans-serif;
+  background-color: #eee9e6;
+  font-family: "Roboto", sans-serif;
 }
 
 .fa-home {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    color: #f48b0c;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  color: #f48b0c;
 }
 
 .projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25rem;
-    margin: 0 1rem;
-    background-color: #f6f4f2;
-    border-radius: .5rem;
-    min-height: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25rem;
+  margin: 1rem;
+  background-color: #f6f4f2;
+  border-radius: 0.5rem;
+  min-height: 22rem;
 }
 
 .project-item img {
-    width: 22.5rem;
+  width: 22.5rem;
 }
 
 .project-item h3 {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 0.5rem 0;
-    color: #1c232c;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0.5rem 0;
+  color: #1c232c;
 }
 
 .project-item p {
-  margin: .7rem 1.5rem;
+  margin: 0.7rem 1.5rem;
   min-height: 3.5rem;
 }
 
 .project-item button {
-    margin-left: 14rem;
-    margin-bottom: .5rem;
-    border-radius: .4rem;
-    background-color: #f48b0c;
-    color: #eee9e6;
-    border: 0 none;
-    padding: .5rem .6rem;
-    text-decoration: none;
+  margin-left: 14rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.4rem;
+  background-color: #f48b0c;
+  color: #eee9e6;
+  border: 0 none;
+  padding: 0.5rem 0.6rem;
+  text-decoration: none;
 }
 
 .project-item button a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .project-item button a:visited {
@@ -64,22 +64,22 @@ body {
 }
 
 @media (min-width: 53.125rem) {
-    .projects-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        column-gap: 5rem;
-    }
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 5rem;
+  }
 
-    .project-item {
-        margin:auto;
-    }
+  .project-item {
+    margin: 1rem;
+  }
 }
 
 @media (min-width: 78.125rem) {
-    .projects-container {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        column-gap: 2rem;
-    }
+  .projects-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2rem;
+  }
 }
