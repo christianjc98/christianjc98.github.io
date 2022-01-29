@@ -30,6 +30,13 @@ const projects = [
     description: "Loading animation for webpage builded with anime.js",
     link: "https://christianjc98.github.io/AnimacionPrueba/",
   },
+  {
+    id: 5,
+    title: "Chajaal E-commerce site",
+    img: "ecommerce-project.png",
+    description: "Front End of a E-commerce webpage",
+    link: "https://christianjc98.github.io/ChaajalHamacas-E-commerce/",
+  },
 ];
 const projectContainer = document.querySelector(".projects-container");
 window.addEventListener("DOMContentLoaded", () => {
