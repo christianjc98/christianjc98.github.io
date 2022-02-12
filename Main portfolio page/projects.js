@@ -37,6 +37,13 @@ const projects = [
     description: "Front End of a E-commerce webpage",
     link: "https://christianjc98.github.io/ChaajalHamacas-E-commerce/",
   },
+  {
+    id: 6,
+    title: "React Football searcher",
+    img: "football-project.png",
+    description: "Football app builded with React connected to an API",
+    link: "https://christianjc98.github.io/football-app/",
+  },
 ];
 const projectContainer = document.querySelector(".projects-container");
 window.addEventListener("DOMContentLoaded", () => {
@@ -51,3 +58,5 @@ window.addEventListener("DOMContentLoaded", () => {
   displayProjetcs = displayProjetcs.join("");
   projectContainer.innerHTML = displayProjetcs;
 });
+
+const holaBtn = document.querySelector(".hola-btn");

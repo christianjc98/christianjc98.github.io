@@ -73,6 +73,7 @@ body {
 
   .project-item {
     margin: 1rem;
+    width: 23.5rem;
   }
 }
 
@@ -81,5 +82,9 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 2rem;
+  }
+
+  .project-item {
+    width: 24rem;
   }
 }
