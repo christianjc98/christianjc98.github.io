@@ -44,6 +44,13 @@ const projects = [
     description: "Football app builded with React connected to an API",
     link: "https://christianjc98.github.io/football-app/",
   },
+  {
+    id: 7,
+    title: "React Mini Projects",
+    img: "MiniProjects-project.png",
+    description: "Mini projects builded with React while learning",
+    link: "https://christianjc98.github.io/React-Mini-Projects/",
+  },
 ];
 const projectContainer = document.querySelector(".projects-container");
 window.addEventListener("DOMContentLoaded", () => {
